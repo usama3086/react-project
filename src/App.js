@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import Alert from './components/Alert';
 import {
   BrowserRouter as Router,
-  Switch,
+
   
 } from "react-router-dom";
 
@@ -42,12 +42,11 @@ function App() {
     <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} key={new Date()} />
     <Alert alert={alert}/>
     <div className="container my-3">
-    <Switch>
+    
   
        
             <TextForm showAlert={showAlert} heading=" TextUtils" mode={mode}/>
-        
-    </Switch>
+  
     </div>
     </Router>
     </> 
