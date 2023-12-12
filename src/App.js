@@ -32,7 +32,7 @@ function App() {
     }
     else{
       setMode('light');
-      document.body.style.backgroundColor = 'red';
+      document.body.style.backgroundColor = 'white';
       showAlert("Light mode has been enabled", "success");
     }
   }
